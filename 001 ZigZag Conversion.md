@@ -1,7 +1,3 @@
----
-tags: [String]
----
-
 ## Problem
 - The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
@@ -48,21 +44,17 @@ P       I
 ```python
 class Solution:  
   def convert(self, s: str, numRows: int) -> str:
-    if(numRows < 2):  
-      return s  
-    arr = ['' for i in range(numRows)]  
-    direction = 'down'  
-    row = 0  
-    for i in s:  
-      arr[row] += i  
-      if row == numRows-1:  
-        direction = 'up'  
-      elif row == 0:  
-        direction = 'down'  
-      if(direction == 'down'):  
-        row += 1  
-      else:  
-        row -= 1  
+    if(numRows < 2): # If numRows=0 or 1, it should return the string without any modification
+	  return s
+	arr = ['' for i in range(numRows)] # Creating an empty array with size = numRows
+	direction = 1 # There are two directions: 1 = down and -1 = up
+	row = 0 # Its value will determine where the characters will be
+	for i in s:
+	  arr[row] += i
+	  row += direction
+	  if row==0 or row == numRows-1:
+		direction *= -1
+		return(''.join(arr)) # Show the entire array
     return(''.join(arr))
 
 solution = Solution()
