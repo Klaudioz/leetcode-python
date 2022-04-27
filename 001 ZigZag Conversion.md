@@ -74,4 +74,4 @@ print(solution.convert('A', 1)) # A
 ^61823e
 
 # Diagram
-![[Pasted image 20220427102312.png]]
+![](https://i.imgur.com/X4AA9n6.png)
