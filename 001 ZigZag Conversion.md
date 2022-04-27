@@ -75,3 +75,9 @@ print(solution.convert('A', 1)) # A
 
 # Diagram
 ![](https://i.imgur.com/X4AA9n6.png)
+
+# Time complexity
+`O(n)` where n is the size of the input string. The for is iterating once each character of the string.
+
+# Space complexity
+`O(n)`:  The result is just the same string with a different character order, so there is no case where the answer is a bigger size than the original string.
