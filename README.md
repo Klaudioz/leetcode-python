@@ -8,7 +8,7 @@ I'm planning to solve about one of this problems each day, creating a optimal so
 | #    | Name                | Complexity  | Tags | Status |
 | :--- | :------------------ |:----------- |:---- | :------ |
 | 1 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |  Easy  |  `String`   | [Ready](https://github.com/Klaudioz/leetcode-python/blob/master/001%20ZigZag%20Conversion.md)
-| 2 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |  Easy  |  `Math`   | Not Ready |
+| 2 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |  Easy  |  `Math`   | [Ready](https://github.com/Klaudioz/leetcode-python/blob/master/002%20Reverse%20Integer.md) |
 | 3 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |  Easy  |  `Math`   | Not Ready |
 | 4 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  Easy  |  `Math` `String`   | Not Ready |
 | 5 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  Easy  |  `String`   | Not Ready |
