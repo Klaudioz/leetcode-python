@@ -31,7 +31,7 @@ print(solution.isPalindrome(10)) # False
 N/A
 
 ## Time complexity
-- **_O(n)_**
+- **_O(n)_**: Time complexity is O(n) because we have to check each digit in the given number at least once to determine if the given number is a palindrome.
 
 ## Space complexity
 - **_O(1)_** because we used constant space.
