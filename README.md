@@ -10,7 +10,7 @@ I'm planning to solve about one of this problems each day, creating a optimal so
 | 1 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |  Easy  |  `String`   | [Ready](https://github.com/Klaudioz/leetcode-python/blob/master/001%20ZigZag%20Conversion.md)
 | 2 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |  Easy  |  `Math`   | [Ready](https://github.com/Klaudioz/leetcode-python/blob/master/002%20Reverse%20Integer.md) |
 | 3 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |  Easy  |  `Math`   | [Ready](https://github.com/Klaudioz/leetcode-python/blob/master/003%20Palindrome%20Number.md) |
-| 4 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  Easy  |  `Math` `String`   | Not Ready |
+| 4 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |  Easy  |  `Math` `String`   | [Ready](https://github.com/Klaudioz/leetcode-python/blob/master/004%20Roman%20Integer.md) |
 | 5 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |  Easy  |  `String`   | Not Ready |
 | 6 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  Easy  |  `Linked List` `Two Pointers`   | Not Ready |
 | 7 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |  Easy  |  `Stack` `String`   | Not Ready |
