@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Sunday, May 15th 2022, 7:22:05 pm
-date modified: Monday, May 16th 2022, 3:10:19 pm
+date modified: Tuesday, May 17th 2022, 7:19:07 am
 title: 005 Longest Common Prefix
 ---
 
@@ -57,7 +57,13 @@ print(solution.longestCommonPrefix(['Today'])) # "Today"
 ![](https://i.imgur.com/MqObWEu.gif|)
 
 ## Time Complexity
-- **_O(n)_**: where n is the size of the bigger string in the list. The for is iterating once each character of the string.
+
+- **_O(n)_**: where n is the size of the bigger string in the list. The for is iterating once each character of the string, even when a break can finish the loop earlier.
 
 ## Space Complexity
+
 - **_O(1)_**: used constant space.
+
+## More Ideas
+
+- Python has a built-in [commonprefix()](https://docs.python.org/3/library/os.path.html) function to solve the problem in single-line: `return os.path.commonprefix(strs)`
